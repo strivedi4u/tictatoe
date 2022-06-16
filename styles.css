@@ -1,0 +1,155 @@
+*{box-sizing: border-box;}
+
+html, body{
+	width: 70%;
+	margin: 15%;
+    margin-top: 5px;
+	height: 80%
+}
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	height: 33.33%;
+
+}
+
+.flex-item {
+	width: 33.33%;
+	height: 100%;
+	text-align: center;
+}
+
+
+#flex1 {
+	background-color: rgb(138, 217, 54);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#flex2 {
+	background-color: #2dbbda;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#flex3 {
+	background-color: rgb(138, 217, 54);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#flex4 {
+	background-color: #2dbbda;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#flex5 {
+    background-color: rgb(138, 217, 54);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+#flex6 {
+	background-color: #2dbbda;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#flex7 {
+	
+    background-color: rgb(138, 217, 54);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#flex8 {
+    background-color: #2dbbda;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#flex9 {
+    background-color: rgb(138, 217, 54);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.col{
+	min-height: 40px;
+	margin: 0px;
+	display: inline-block;
+	float: left;
+}
+
+.col:first-child{
+	margin: 0px;
+}
+
+.col:last-child{
+	margin-right: 0px;
+}
+
+.col.one{width: 3.93%;
+	height: 100%;
+	background-color: black;
+}
+
+.col.two{width: 12.66%;}
+
+.col.three{width: 21.4%;
+	height: 100%;
+	background-color: black;}
+
+.col.four{width: 30.13%;}
+
+.col.five{width: 38.867%;}
+
+.col.six{width: 50%;
+	height: 100%;
+	}
+
+.col.seven{width: 57.2%;
+	height: 100%;
+}
+
+.col.eight{width: 65.07%;}
+
+.col.nine{width: 73.8%;}
+
+.col.ten{width: 82.533%;}
+
+.col.eleven{width: 91.27%;
+	border: 1px solid black;
+	margin: 0 auto;}
+
+.col.twelve{width: 100%;
+		height: 33%;}
+.col.twelve.whole {width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 768px){
+	.col{
+		width: 100% !important;
+		margin: 0px;
+	}
+}
