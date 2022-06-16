@@ -1,8 +1,8 @@
 *{box-sizing: border-box;}
 
 html, body{
-	width: 98%;
-	margin: 2%;
+	width: 100%;
+	margin: 0px;
     margin-top: 5px;
 	height: 80%
 }
