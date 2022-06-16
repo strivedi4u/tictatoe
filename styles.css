@@ -160,3 +160,91 @@ margin: 0px;
 		margin: 0px;
 	}
 }
+
+
+
+
+
+.facebook {
+
+  background: #3B5998;
+
+  color: white;
+
+  float:left;
+
+  width:20%;
+
+  font-size:22px;
+
+  height:50px;
+
+ 
+
+}
+
+.twitter {
+
+  background: #55ACEE;
+
+  color: white;
+
+  width:20%;
+
+  font-size:22px;
+
+ float:left;
+
+  height:50px;
+
+  
+
+}
+
+.google {
+
+  background: #1be34a;
+
+  color: white;
+
+width:20%;
+
+  height:50px;
+
+  font-size:22px;
+
+  float:left;
+
+}
+
+.linkedin {
+
+  background: #007bb5;
+
+  color: white;
+
+ float:left;
+
+  height:50px;
+
+  font-size:22px;
+
+  width:20%;
+
+}
+
+.youtube {
+
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+  color: white;
+
+ float:left;
+
+  height:50px;
+
+  font-size:22px;
+	}
+	
+	
+	
