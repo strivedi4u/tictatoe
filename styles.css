@@ -5,8 +5,9 @@ html, body{
 	width: 98%;
 	margin: 0px;
 	padding: 1%;
-	
+	padding-right: -1%;
 margin-right: -1px;
+	
 	height: 80%
 }
 
