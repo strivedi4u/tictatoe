@@ -84,14 +84,17 @@ function result(){
    var i = sessionStorage.getItem('9');
    if( (a+b+c) == 'XXX' || (d+e+f) == 'XXX' || (g+h+i) == 'XXX' || (a+d+g) == 'XXX' || (b+e+h) == 'XXX' ||(c+f+i) == 'XXX' || (a+e+i) == 'XXX' ||(c+e+g) == 'XXX'){
 document.getElementById('result').innerHTML = "X Win";
+	   document.getElementById('turn').innerHTML = "Congratulations";
 	   document.getElementById("input").style.display = "none";
    }
    else if( (a+b+c) == 'OOO' || (d+e+f) == 'OOO' || (g+h+i) == 'OOO' || (a+d+g) == 'OOO' || (b+e+h) == 'OOO' ||(c+f+i) == 'OOO' || (a+e+i) == 'OOO' ||(c+e+g) == 'OOO') {
 document.getElementById('result').innerHTML = "O Win";
+	   document.getElementById('turn').innerHTML = "Congratulations";
 	   document.getElementById("input").style.display = "none";
    }
    else if (i >=8) {
 document.getElementById('result').innerHTML = "Draw";
+	   document.getElementById('turn').innerHTML = "Oh No!";
 	   document.getElementById("input").style.display = "none";
    }
 }
