@@ -108,6 +108,7 @@ function submit() {
 
     var no = document.getElementById('number').value;
     var data = sessionStorage.getItem(no);
+	document.getElementById('result').innerText = ""; 
     if(data == null){
         if(no <10){
      i++;
@@ -132,7 +133,7 @@ else {
     
 setData();
     result ();
-	document.getElementById('result').innerText = ""; 
+	
 }
 	</script>
 
