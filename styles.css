@@ -18,6 +18,7 @@ margin: 0px;
 	display: -webkit-flex;
 	display: flex;
 	padding : 0px;
+	margin: 0px;
 	-webkit-justify-content: center;
 	justify-content: center;
 	width: 100%;
