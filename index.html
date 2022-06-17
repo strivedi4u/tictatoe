@@ -14,7 +14,84 @@ pageEncoding="ISO-8859-1"% -->
 </head>
 <body>
 
-
+<nav class="navbar fixed-top navbar-light bg-light">
+         
+        <br><br>
+         <header style="color:black; background-color:white;" id="navbar">
+            <nav style="color:black; background-color:white;" class="navbar-container container">
+              <a style="color:black; font-size:25px;" href="#" class="home-link">
+                <div  class="navbar-logo"></div>
+                <span style="color: red;" class="a"><b> To</b></span>
+                <span style="color: #2EBF75;" class="b"><b> ss&nbsp;</b></span>
+              <span style="color: yellow;" class="c"><b>Ga</b></span>
+              <span style="color: blue;" class="d"><b>me</b></span>
+              </a>
+              <button style="color:black; onclick:none;" type="button" class="navbar-toggle" aria-label="Open navigation menu" style="white-space:nowrap;">
+                  <span style="color:black; onclick:none; background-color:black;" class="icon-bar"></span>
+                  <span style="color:black; onclick:none; background-color:black;" class="icon-bar"></span>
+                  <span style="color:black; onclick:none; background-color:black;" class="icon-bar"></span>
+              </button>
+              <div style="color:black; onclick:none;"  class="navbar-menu detached" style="white-space:nowrap;">
+                <ul style="color:black;  onclick:none; background-color:white;"  class="navbar-links" style="white-space:nowrap;">
+               
+                  <li  style="color:black; background-color:white;" class="navbar-item"><a style="color:black; background-color:white; white-space:nowrap;" style="white-space:nowrap;" class="navbar-link" style="white-space:nowrap;" href="https://trivedi2u.github.io/game/number/">Number Game</a></li>
+                         <li style="color:black; background-color:white;" class="navbar-item"><a style="color:black; background-color:white; white-space:nowrap;" class="navbar-link" 
+       href="whatsapp://send?text=It is a Toss Application to provide awesome result to guessing task. %0a%F0%9F%91%87%F0%9F%91%87%F0%9F%91%87%F0%9F%91%87%F0%9F%91%87%F0%9F%91%87%F0%9F%91%87%F0%9F%91%87%F0%9F%91%87%F0%9F%91%87  %0a http://trivedi2u.github.io/game/"><img height="30px;" weight="30px;" src="https://1.bp.blogspot.com/-rJiaji8A2Q0/XtXMxCWKCaI/AAAAAAAAAx4/_5P8x-4jVy8Ueg7M04kKP2rhdhxmECNKQCK4BGAsYHg/i.gif" >WhatsApp</a>
+    
+    
+    
+    </li>
+            
+                </ul>
+              </div>
+            </nav>
+        </header>
+       <script>
+    const navbar = document.getElementById("navbar");
+    const navbarToggle = navbar.querySelector(".navbar-toggle");
+    
+    function openMobileNavbar() {
+      navbar.classList.add("opened");
+      navbarToggle.setAttribute("aria-label", "Close navigation menu.");
+    }
+    
+    function closeMobileNavbar() {
+      navbar.classList.remove("opened");
+      navbarToggle.setAttribute("aria-label", "Open navigation menu.");
+    }
+    
+    navbarToggle.addEventListener("click", () => {
+      if (navbar.classList.contains("opened")) {
+        closeMobileNavbar();
+      } else {
+        openMobileNavbar();
+      }
+    });
+    
+    const navbarMenu = navbar.querySelector(".navbar-menu");
+    const navbarLinksContainer = navbar.querySelector(".navbar-links");
+    
+    navbarLinksContainer.addEventListener("click", (clickEvent) => {
+      clickEvent.stopPropagation();
+    });
+    
+    navbarMenu.addEventListener("click", closeMobileNavbar);
+    
+    document
+      .getElementById("options")
+      .querySelectorAll("input[name='navtype']")
+      .forEach((option) => {
+        option.addEventListener("change", (e) => {
+          const navType = e.target.id.split("-").join(" ");
+          navbarMenu.classList = "navbar-menu " + navType;
+        });
+      });
+    </script>
+    
+    
+          </nav>
+          
+<br><br>
 
 
 		<div class="col twelve whole">
