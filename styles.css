@@ -5,7 +5,7 @@ html, body{
 	width: 100%;
 	
 	
-	padding : 2%;
+	
 margin: 0px;
 
 	
@@ -17,6 +17,7 @@ margin: 0px;
 .flex-container {
 	display: -webkit-flex;
 	display: flex;
+	padding : 2%;
 	-webkit-justify-content: center;
 	justify-content: center;
 	width: 100%;
