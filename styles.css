@@ -17,7 +17,7 @@ margin: 0px;
 .flex-container {
 	display: -webkit-flex;
 	display: flex;
-	padding : 2%;
+	padding : 0px;
 	-webkit-justify-content: center;
 	justify-content: center;
 	width: 100%;
