@@ -166,6 +166,8 @@ margin: 0px;
 .footer {
 	padding : -2%;
 margin: -2%;
+	bottom: 0px;
+position: fixed;
 }
 
 	
