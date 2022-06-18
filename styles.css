@@ -34,7 +34,7 @@ margin: 0px;
 
 
 #flex1 {
-	background-color: rgb(138, 217, 54);
+	background-color: tomato;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -48,7 +48,7 @@ margin: 0px;
 }
 
 #flex3 {
-	background-color: rgb(138, 217, 54);
+	background-color: tomato;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -62,7 +62,7 @@ margin: 0px;
 }
 
 #flex5 {
-    background-color: rgb(138, 217, 54);
+    background-color: tomato;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -82,7 +82,7 @@ margin: 0px;
 
 #flex7 {
 	
-    background-color: rgb(138, 217, 54);
+    background-color: tomato;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -96,7 +96,7 @@ margin: 0px;
 }
 
 #flex9 {
-    background-color: rgb(138, 217, 54);
+    background-color: tomato;
 	display: flex;
 	justify-content: center;
 	align-items: center;
