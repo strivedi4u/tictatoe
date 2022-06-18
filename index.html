@@ -150,7 +150,7 @@ document.getElementById("flex9").textContent = sessionStorage.getItem('9');
 }
 var i = 0;
 
-function result(){
+function result(p){
    var a = sessionStorage.getItem('1');
   var b =  sessionStorage.getItem('2');
   var c =  sessionStorage.getItem('3');
@@ -170,8 +170,8 @@ document.getElementById('result').innerHTML = "O Win";
 	   document.getElementById('turn').innerHTML = "Congratulations";
 	   
    }
-	document.write(i);
-   else if(i >=7) {
+	document.write(p);
+   else if(p >=7) {
 document.getElementById('result').innerHTML = "Draw";
 	   document.getElementById('turn').innerHTML = "Oh No!";
 	   
@@ -213,7 +213,7 @@ else {
 }
     
 setData();
-    result ();
+    result (i);
 	
 }
 	</script>
