@@ -4,7 +4,7 @@ language="java" contentType="text/html; charset=ISO-8859-1"
 pageEncoding="ISO-8859-1"% -->
 <html>
 <head>
-<title>Tic Ta Toe</title>
+<title>X O Game</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <!-- CSS only -->
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,10 +21,10 @@ pageEncoding="ISO-8859-1"% -->
             <nav style="color:black; background-color:white;" class="navbar-container container">
               <a style="color:black; font-size:25px;" href="#" class="home-link">
                 <div  class="navbar-logo"></div>
-                <span style="color: red;" class="a"><b> Ti</b></span>
-                <span style="color: #2EBF75;" class="b"><b> c&nbsp;</b></span>
-              <span style="color: yellow;" class="c"><b>Ta&nbsp;</b></span>
-              <span style="color: blue;" class="d"><b>Toe</b></span>
+                <span style="color: red;" class="a"><b> X&nbsp;</b></span>
+                <span style="color: #2EBF75;" class="b"><b> O&nbsp;</b></span>
+              <span style="color: yellow;" class="c"><b>Ga</b></span>
+              <span style="color: blue;" class="d"><b>me</b></span>
               </a>
               <button style="color:black;  onclick:none;" type="button" class="navbar-toggle" aria-label="Open navigation menu" style="white-space:nowrap;">
                   <span style="color:black; onclick:none; background-color:black;" class="icon-bar"></span>
@@ -170,7 +170,7 @@ document.getElementById('result').innerHTML = "O Win";
 	   document.getElementById('turn').innerHTML = "Congratulations";
 	   
    }
-   else if (i >=7) {
+   else if(i >=7) {
 document.getElementById('result').innerHTML = "Draw";
 	   document.getElementById('turn').innerHTML = "Oh No!";
 	   
