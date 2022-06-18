@@ -163,7 +163,7 @@ function result(p){
    if( (a+b+c) == 'XXX' || (d+e+f) == 'XXX' || (g+h+i) == 'XXX' || (a+d+g) == 'XXX' || (b+e+h) == 'XXX' ||(c+f+i) == 'XXX' || (a+e+i) == 'XXX' ||(c+e+g) == 'XXX'){
 document.getElementById('result').innerHTML = "X Win";
 	   document.getElementById('turn').innerHTML = "Congratulations";
-	   var clear  = setTimeout(function() { sessionStorage.clear(); }, 3000);
+	   setTimeout(function() { sessionStorage.clear(); }, 1000);
 	   setTimeout(function(){
             window.location.href = 'https://trivedi2u.github.io/tictatoe/xenjoy.html';
          }, 2000);
