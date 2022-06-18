@@ -309,7 +309,7 @@ width:20%;
 }
 
 .navbar-logo {
-    background-image: url("images/logo.png");
+    background-image: url("logo.png");
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
