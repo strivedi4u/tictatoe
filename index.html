@@ -96,7 +96,7 @@ pageEncoding="ISO-8859-1"% -->
 
   <div id ="turn" style="text-align:center" class="card-header">
 
-    <h4 style= "padding:1px; margin:0px; color:red">O Turn </h4>
+    <h4 style= "padding:0px; margin-bottom:2px; color:red">Player O Turn </h4>
 
   </div>
 	</div>
@@ -219,11 +219,11 @@ k++;
    
 if(k%2 == 0){
     sessionStorage.setItem(no, "X");
-    document.getElementById('turn').innerText= "O Turn";
+    document.getElementById('turn').innerText= "Player O Turn";
 }
 else {
     sessionStorage.setItem(no, "O");
-    document.getElementById('turn').innerText = "X Turn";
+    document.getElementById('turn').innerText = "Player X Turn";
 }
     
 setData();
