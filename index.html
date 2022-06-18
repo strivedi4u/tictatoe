@@ -220,11 +220,11 @@ k++;
 if(k%2 == 0){
     sessionStorage.setItem(no, "X");
 	
-    document.getElementById('turn').innerText= "Player O Turn";
+    document.getElementById('turn').textContent= "Player O Turn";
 }
 else {
     sessionStorage.setItem(no, "O");
-    document.getElementById('turn').innerText = "Player X Turn";
+    document.getElementById('turn').textContent = "Player X Turn";
 }
     
 setData();
