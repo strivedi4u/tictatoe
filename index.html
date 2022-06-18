@@ -163,17 +163,26 @@ function result(p){
    if( (a+b+c) == 'XXX' || (d+e+f) == 'XXX' || (g+h+i) == 'XXX' || (a+d+g) == 'XXX' || (b+e+h) == 'XXX' ||(c+f+i) == 'XXX' || (a+e+i) == 'XXX' ||(c+e+g) == 'XXX'){
 document.getElementById('result').innerHTML = "X Win";
 	   document.getElementById('turn').innerHTML = "Congratulations";
+	   setTimeout(function(){
+            window.location.href = 'https://trivedi2u.github.io/tictatoe/xenjoy.html';
+         }, 2000);
 	  
    }
    else if( (a+b+c) == 'OOO' || (d+e+f) == 'OOO' || (g+h+i) == 'OOO' || (a+d+g) == 'OOO' || (b+e+h) == 'OOO' ||(c+f+i) == 'OOO' || (a+e+i) == 'OOO' ||(c+e+g) == 'OOO') {
 document.getElementById('result').innerHTML = "O Win";
 	   document.getElementById('turn').innerHTML = "Congratulations";
+	   setTimeout(function(){
+            window.location.href = 'https://trivedi2u.github.io/tictatoe/oenjoy.html';
+         }, 2000);
 	   
    }
 	
    else if(p >8) {
 document.getElementById('result').innerHTML = "Draw";
 	   document.getElementById('turn').innerHTML = "Oh No!";
+	   setTimeout(function(){
+            window.location.href = 'https://trivedi2u.github.io/tictatoe/draw.html';
+         }, 2000);
 	   
    }
 }
