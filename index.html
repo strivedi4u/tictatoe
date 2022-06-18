@@ -125,8 +125,8 @@ pageEncoding="ISO-8859-1"% -->
   </div>
   <div id = "input" class="card-body">
     <center >
-      <input style= "text-align: center" type="text" class="form-control" placeholder= "Enter the Number" id="number" ><br>
-      <button class="btn btn-outline-secondary" onclick="submit()" type="button">Button</button>
+    
+     
     </center>
   </div>
 </div>
@@ -190,12 +190,12 @@ function submit(x) {
     var data = sessionStorage.getItem(no);
 	document.getElementById('result').innerText = ""; 
     if(data == null){
-        if(no <10){
+
      i++;
-        }
-        else{
-              document.getElementById('result').innerHTML = "Value is Out of Range"; 
-        }
+
+
+     
+  
     }
     else{
         document.getElementById('result').innerHTML = "Value Already Store";
