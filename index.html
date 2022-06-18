@@ -164,7 +164,7 @@ function result(p){
    var i = sessionStorage.getItem('9');
    if( (a+b+c) == 'XXX' || (d+e+f) == 'XXX' || (g+h+i) == 'XXX' || (a+d+g) == 'XXX' || (b+e+h) == 'XXX' ||(c+f+i) == 'XXX' || (a+e+i) == 'XXX' ||(c+e+g) == 'XXX'){
 document.getElementById('result').innerHTML = "X Win";
-	   document.getElementById('turn').innerHTML = "Congratulations";
+	   document.getElementById('turn').innerText= "Congratulations";
 	   k = 0;
 	   setTimeout(function() { sessionStorage.clear(); }, 1000);
 	   setTimeout(function(){
@@ -174,7 +174,7 @@ document.getElementById('result').innerHTML = "X Win";
    }
    else if( (a+b+c) == 'OOO' || (d+e+f) == 'OOO' || (g+h+i) == 'OOO' || (a+d+g) == 'OOO' || (b+e+h) == 'OOO' ||(c+f+i) == 'OOO' || (a+e+i) == 'OOO' ||(c+e+g) == 'OOO') {
 document.getElementById('result').innerHTML = "O Win";
-	   document.getElementById('turn').innerHTML = "Congratulations";
+	   document.getElementById('turn').innerText= "Congratulations";
 	   setTimeout(function(){
             window.location.href = 'https://trivedi2u.github.io/tictatoe/oenjoy.html';
          }, 2000);
@@ -184,7 +184,7 @@ document.getElementById('result').innerHTML = "O Win";
    else if(p >8) {
 	   k = 0;
 document.getElementById('result').innerHTML = "Draw";
-	   document.getElementById('turn').innerHTML = "Oh No!";
+	   document.getElementById('turn').innerText = "Oh No!";
 	   setTimeout(function(){
             window.location.href = 'https://trivedi2u.github.io/tictatoe/draw.html';
          }, 2000);
@@ -219,11 +219,11 @@ k++;
    
 if(k%2 == 0){
     sessionStorage.setItem(no, "X");
-    document.getElementById('turn').innerHTML = "O Turn";
+    document.getElementById('turn').innerText= "O Turn";
 }
 else {
     sessionStorage.setItem(no, "O");
-    document.getElementById('turn').innerHTML = "X Turn";
+    document.getElementById('turn').innerText = "X Turn";
 }
     
 setData();
