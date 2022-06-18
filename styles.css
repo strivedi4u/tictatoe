@@ -38,6 +38,11 @@ margin: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
+	font-size:18px;
+color:blue;
+
+	
 }
 
 #flex2 {
@@ -45,6 +50,14 @@ margin: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
+	font-size:18px;
+color:blue;
+
+
+	
+
+
 }
 
 #flex3 {
@@ -52,6 +65,10 @@ margin: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
+	font-size:18px;
+color:blue;
+
 }
 
 #flex4 {
@@ -59,6 +76,10 @@ margin: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
+	font-size:18px;
+color:blue;
+
 }
 
 #flex5 {
@@ -66,6 +87,10 @@ margin: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
+	font-size:18px;
+color:blue;
+
 }
 
 
@@ -77,6 +102,10 @@ margin: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
+	font-size:18px;
+color:blue;
+
 }
 
 
@@ -86,6 +115,10 @@ margin: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
+	font-size:18px;
+color:blue;
+
 }
 
 #flex8 {
@@ -93,6 +126,10 @@ margin: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
+	font-size:18px;
+color:blue;
+
 }
 
 #flex9 {
@@ -100,6 +137,10 @@ margin: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
+	font-size:18px;
+color:blue;
+
 }
 
 .col{
