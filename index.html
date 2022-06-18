@@ -188,16 +188,17 @@ function submit(x) {
 	var no = x;
     var data = sessionStorage.getItem(no);
 	document.getElementById('result').innerText = ""; 
-    if(data != "X" || data != "O"){
+    if(data == "X" || data == "O"){
 
-     i++;
+     
 
-
+document.getElementBydocument.getElementById('result').innerHTML = "Value Already Store";
 
   
     }
     else{
-        document.getElementById('result').innerHTML = "Value Already Store";
+        
+i++;
     }
     
    
